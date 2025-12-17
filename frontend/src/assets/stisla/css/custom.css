@@ -1,8 +1,206 @@
-/**
- *
- * You can write your CSS code here, DO NOT touch the default JavaScript file
- * because it will make it harder for you to update.
- * 
- */
+/* =====================================================
+   SOMESTOCK - MODERN UI THEME
+   Tanpa mengubah logika React
+   ===================================================== */
 
-/*# sourceMappingURL=custom.css.map */
+/* ---------- ROOT COLOR ---------- */
+:root {
+  --primary: #4f46e5;
+  --secondary: #6366f1;
+  --success: #22c55e;
+  --danger: #ef4444;
+  --dark: #0f172a;
+  --gray: #64748b;
+  --light: #f8fafc;
+}
+
+/* ---------- GLOBAL ---------- */
+body {
+  background: var(--light);
+  font-family: "Inter", "Segoe UI", sans-serif;
+  color: var(--dark);
+}
+
+/* ---------- NAVBAR (TOP) ---------- */
+.main-navbar {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--primary) !important;
+  letter-spacing: 0.5px;
+}
+
+.main-navbar .nav-link {
+  color: var(--dark) !important;
+}
+
+.main-navbar .nav-link:hover {
+  color: var(--primary) !important;
+}
+
+/* Avatar user */
+.avatar {
+  width: 34px;
+  height: 34px;
+  font-size: 14px;
+}
+
+/* ---------- SECONDARY NAVBAR / SIDEBAR ---------- */
+.navbar-secondary {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.navbar-secondary .nav-link {
+  padding: 10px 16px;
+  border-radius: 10px;
+  margin-right: 6px;
+  font-weight: 500;
+  color: var(--dark) !important;
+  transition: all 0.2s ease;
+}
+
+.navbar-secondary .nav-link i {
+  margin-right: 6px;
+}
+
+.navbar-secondary .nav-item.active .nav-link {
+  background: var(--primary);
+  color: #ffffff !important;
+}
+
+.navbar-secondary .nav-link:hover {
+  background: #eef2ff;
+  color: var(--primary) !important;
+}
+
+/* ---------- DROPDOWN ---------- */
+.dropdown-menu {
+  border: none;
+  border-radius: 14px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+  padding: 10px;
+}
+
+.dropdown-item {
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-weight: 500;
+}
+
+.dropdown-item:hover {
+  background: #eef2ff;
+  color: var(--primary);
+}
+
+.dropdown-header {
+  font-weight: 600;
+  color: var(--dark);
+}
+
+/* ---------- MAIN CONTENT ---------- */
+.main-content {
+  padding: 30px;
+  background: var(--light);
+  min-height: 100vh;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+/* ---------- CARD ---------- */
+.card {
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.card-header {
+  background: transparent;
+  border-bottom: none;
+  font-weight: 600;
+  padding: 20px 24px 0;
+}
+
+.card-body {
+  padding: 24px;
+}
+
+/* ---------- BUTTON ---------- */
+.btn {
+  border-radius: 10px;
+  font-weight: 500;
+  padding: 8px 16px;
+}
+
+.btn-primary {
+  background: var(--primary);
+  border: none;
+}
+
+.btn-primary:hover {
+  background: var(--secondary);
+}
+
+/* ---------- TABLE ---------- */
+.table {
+  background: #ffffff;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.table thead {
+  background: #f1f5f9;
+}
+
+.table thead th {
+  border: none;
+  font-weight: 600;
+  color: var(--dark);
+}
+
+.table tbody td {
+  border-top: 1px solid #e5e7eb;
+  vertical-align: middle;
+}
+
+/* ---------- FORM ---------- */
+.form-control {
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  padding: 10px 14px;
+}
+
+.form-control:focus {
+  border-color: var(--primary);
+  box-shadow: none;
+}
+
+/* ---------- FOOTER ---------- */
+.main-footer {
+  background: #ffffff;
+  border-top: 1px solid #e5e7eb;
+  padding: 15px 0;
+  font-size: 14px;
+  color: var(--gray);
+  text-align: center;
+}
+
+/* ---------- UTIL ---------- */
+.shadow-sm {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06) !important;
+}
+
+.text-primary {
+  color: var(--primary) !important;
+}
+
+.bg-primary {
+  background: var(--primary) !important;
+}
