@@ -2,11 +2,11 @@ import React from "react";
 
 export default function Footer() {
     return (
-        <footer className="main-footer">
-            <div className="footer-left">
-                Copyright &copy; 2023 <div className="bullet"></div>
-            </div>
-            <div className="footer-right">0.5.1</div>
-        </footer>
+<footer className="main-footer text-center border-top py-3">
+    <div className="text-muted">
+        © 2025 <strong>SOMESTOCK</strong>
+    </div>
+</footer>
+
     );
 }

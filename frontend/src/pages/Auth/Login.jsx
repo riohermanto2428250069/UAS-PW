@@ -134,7 +134,7 @@ export default function Login() {
                     Don't have an account?{" "}
                     <Link to="/register">Create One</Link>
                 </div>
-                <div className="simple-footer">Copyright &copy; Minventory</div>
+                <div className="simple-footer">Copyright &copy; SomeStock</div>
             </div>
         </div>
     );

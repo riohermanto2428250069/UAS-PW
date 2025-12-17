@@ -21,7 +21,7 @@ export default function Error403() {
                             </div>
                         </div>
                         <div class="simple-footer mt-5">
-                            Copyright &copy; Stisla 2023
+                            Copyright &copy; SomeStock
                         </div>
                     </div>
                 </section>

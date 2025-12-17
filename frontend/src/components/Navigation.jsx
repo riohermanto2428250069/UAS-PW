@@ -79,7 +79,7 @@ export default function Navigation() {
         <>
             <nav className="navbar navbar-expand-lg main-navbar">
                 <Link to="/" className="navbar-brand sidebar-gone-hide">
-                    MINVENTORY
+                    SomeStock
                 </Link>
                 <div className="navbar-nav">
                     <a

@@ -202,7 +202,7 @@ export default function Register() {
                     Have an account? <Link to="/">Login here</Link>
                 </div>
                 <div className="simple-footer">
-                    Copyright &copy; Stisla 2023
+                    Copyright &copy; SomeStock 2025
                 </div>
             </div>
         </div>

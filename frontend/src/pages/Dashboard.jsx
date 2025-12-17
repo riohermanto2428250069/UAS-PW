@@ -18,15 +18,8 @@ export default function Dashboard() {
                     <div className="card-body px-0">
                         <h3>Tabel Dashboard</h3>
                         <p className="px-4">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Tenetur at asperiores earum officiis
-                            reiciendis necessitatibus eos! Nam harum tempore
-                            molestias aliquam, qui excepturi similique expedita
-                            vitae perferendis voluptatum laudantium vero
-                            deleniti laboriosam assumenda impedit repellendus
-                            eum, commodi totam! Molestiae ducimus placeat totam
-                            nesciunt, perspiciatis dolor mollitia ut saepe cum
-                            sunt?
+Dashboard SOMESTOCK dirancang untuk membantu pengguna dalam mengelola dan memantau stok barang secara terpusat dan efisien. Melalui tampilan yang sederhana dan informatif, pengguna dapat melihat ringkasan data inventori, aktivitas barang masuk dan keluar, serta kondisi stok terkini secara real-time, sehingga pengelolaan barang menjadi lebih rapi dan terkontrol.
+Dengan SOMESTOCK, proses pencatatan dan pelaporan inventori menjadi lebih akurat dan sistematis. Informasi yang ditampilkan pada dashboard mendukung pengambilan keputusan yang cepat dan tepat, membantu mencegah kekurangan maupun kelebihan stok, serta meningkatkan efektivitas operasional dalam menjalankan aktivitas bisnis sehari-hari.
                         </p>
                     </div>
                 </div>
