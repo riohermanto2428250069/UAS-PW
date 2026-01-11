@@ -24,7 +24,6 @@ export default function Router() {
         <Routes>
             <Route path="/403" element={<Error403 />} />
             <Route
-                exact
                 path="/"
                 element={
                     <AuthLayout>
@@ -33,7 +32,6 @@ export default function Router() {
                 }
             />
             <Route
-                exact
                 path="/register"
                 element={
                     <AuthLayout>
@@ -42,7 +40,6 @@ export default function Router() {
                 }
             />
             <Route
-                exact
                 path="/dashboard"
                 element={
                     <MainLayout>
@@ -51,7 +48,6 @@ export default function Router() {
                 }
             />
             <Route
-                exact
                 path="/category"
                 element={
                     <MainLayout>
@@ -60,7 +56,6 @@ export default function Router() {
                 }
             />
             <Route
-                exact
                 path="/rack-location"
                 element={
                     <MainLayout>
@@ -69,7 +64,6 @@ export default function Router() {
                 }
             />
             <Route
-                exact
                 path="/items"
                 element={
                     <MainLayout>
@@ -78,8 +72,7 @@ export default function Router() {
                 }
             />
             <Route
-                exact
-                path="/opening-balance-items"
+                path="/report-opening-balance-items"
                 element={
                     <MainLayout>
                         <OpeningBalanceItems />
@@ -87,8 +80,7 @@ export default function Router() {
                 }
             />
             <Route
-                exact
-                path="/stock-in"
+                path="/report-stock-in"
                 element={
                     <MainLayout>
                         <StockIn />
@@ -96,8 +88,7 @@ export default function Router() {
                 }
             />
             <Route
-                exact
-                path="/stock-out"
+                path="/report-stock-out"
                 element={
                     <MainLayout>
                         <StockOut />
@@ -105,8 +96,7 @@ export default function Router() {
                 }
             />
             <Route
-                exact
-                path="/stock-opname"
+                path="/report-stock-opname"
                 element={
                     <MainLayout>
                         <StockOpname />
@@ -114,7 +104,6 @@ export default function Router() {
                 }
             />
             <Route
-                exact
                 path="/stock-card"
                 element={
                     <MainLayout>
@@ -123,7 +112,6 @@ export default function Router() {
                 }
             />
             <Route
-                exact
                 path="/profile"
                 element={
                     <MainLayout>
